@@ -1,0 +1,155 @@
+#sec_navbar .navbar-brand{
+    margin-right:200px;
+    color: black;
+}
+
+#sec_navbar .navbar-brand:hover{
+    transform:scale(1.1);
+    transition: transform 1.5s;
+}
+
+#sec_navbar .nav-item{
+    margin-left:50px;
+}
+
+i{
+    color: black;
+}
+
+i:hover{
+    text-decoration:underline;
+    color:#428bca;
+    transition:color 0.5s;
+    
+}
+
+
+#primary_navbar .navbar .active{
+    transform:scale(1.2);
+}
+
+/* #primary_navbar .navbar{
+    width:100%;
+    height:70px;
+} */
+
+/* .navbar-brand img{
+    height:50px;
+    width:50px;
+} */
+
+
+
+#primary_navbar .navbar{
+    border-bottom:1px solid red;
+}
+
+#primary_navbar .nav-link{
+    color:white;
+    margin-left:70px;
+}
+
+#primary_navbar .nav-link:hover{
+   transform:scale(1.2);
+   transition:transform 0.5s ease-in;
+}
+
+#slider .carousel img{
+    width:100%;
+    height:500px;
+    border-bottom:1px solid red;
+    position:relative;
+}
+
+#slider .carousel .image-overlay{
+    width:100%;
+    height:100%;
+    background:black;
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index: 1;
+    opacity:0.5;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#slider .carousel .image-overlay p{
+    color:white;
+    z-index: 1;
+}
+
+.heading{
+    width:100%;
+    height:70px;
+    background:#000;
+    color:yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#powershop .card {
+    border:none;
+}
+
+#powershop .card img{
+    height:150px;
+    width:100%;
+    border-bottom: 1.5px solid gray;
+}
+
+.col-sm-3{
+    margin-top:10px;
+}
+
+#our-brands img{
+    width:200px;
+    height:100px;
+}
+
+footer{
+    background:black;
+    width:100%;
+    height:70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:yellow;
+}
+
+
+/* Brand new */
+
+ #items .col-sm-4{
+    border-right:1px solid gray;
+} 
+
+#items .col-sm-4 p{
+    text-align: center;
+}
+
+#items img{
+    width:100%;
+    height:100px;
+    border-bottom:1px solid gray;
+}
+
+#items .card{
+    border:none;
+}
+
+#items .col-sm-3{
+    margin-top:30px;
+}
+
+#items img:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in;
+}
+/* #items .card:hover{
+    background: #2E2E2E;
+    color:white;
+    transition:background 0.5s ease-in;
+} */
